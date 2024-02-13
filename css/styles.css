@@ -42,12 +42,12 @@ li {
   color: #404bbf;
 }
 
-.contacts-element {
+.contacts-item {
   font-style: normal;
   color: #434455;
 }
-.contacts-element:focus,
-.contacts-element:hover {
+.contacts-item:focus,
+.contacts-item:hover {
   color: #404bbf;
 }
 
@@ -59,7 +59,7 @@ li {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.main-content-title {
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
