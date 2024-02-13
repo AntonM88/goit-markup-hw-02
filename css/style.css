@@ -16,7 +16,9 @@ li {
   text-decoration: none;
   list-style: none;
 }
+
 /* header */
+
 .header-nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -50,6 +52,7 @@ li {
 }
 
 /* ------------- Main -------------- */
+
 .main-content {
   background-color: #2e2f42;
   text-align: center;
@@ -81,6 +84,7 @@ li {
 .button:focus {
   background-color: #404bbf;
 }
+
 /* section#2 */
 
 .company-title {
@@ -92,6 +96,7 @@ li {
 }
 
 /* section#3 */
+
 .team {
   background-color: #f4f4fd;
 }
@@ -117,6 +122,7 @@ li {
 }
 
 /* section#4 */
+
 .portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -133,7 +139,9 @@ li {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 /* footer */
+
 .footer {
   background-color: #2e2f42;
   line-height: 1.17;
