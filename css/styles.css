@@ -30,22 +30,22 @@ li {
 .nav-logo .black {
   color: #2e2f42;
 }
-.page-nav .link {
+.nav .link {
   font-weight: 500;
   color: #2e2f42;
   text-decoration: none;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: #404bbf;
 }
 
-.page-contacts .item {
+.contacts .item {
   font-style: normal;
   color: #434455;
 }
-.page-contacts .item:focus,
-.page-contacts .item:hover {
+.contacts .item:focus,
+.contacts .item:hover {
   color: #404bbf;
 }
 
