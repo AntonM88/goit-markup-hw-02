@@ -7,9 +7,7 @@ body {
   color: #434455;
   background-color: #fff;
 }
-address {
-  font-style: normal;
-}
+
 a,
 ul,
 li {
@@ -19,7 +17,7 @@ li {
 
 /* header */
 
-.header-nav-logo {
+.nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -29,37 +27,37 @@ li {
   text-decoration: none;
   color: #4d5ae5;
 }
-.header-nav-logo-black {
+.nav-logo .black {
   color: #2e2f42;
 }
-.header-menu-link {
+.page-nav .link {
   font-weight: 500;
   color: #2e2f42;
   text-decoration: none;
 }
-.header-menu-link:hover,
-.header-menu-link:focus {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: #404bbf;
 }
 
-.contacts-item {
+.page-contacts .item {
   font-style: normal;
   color: #434455;
 }
-.contacts-item:focus,
-.contacts-item:hover {
+.page-contacts .item:focus,
+.page-contacts .item:hover {
   color: #404bbf;
 }
 
 /* ------------- Main -------------- */
 
-.main-content {
+.page-title {
   background-color: #2e2f42;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.main-title {
+h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -87,7 +85,7 @@ li {
 
 /* section#2 */
 
-.company-title {
+.page-company .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -97,10 +95,10 @@ li {
 
 /* section#3 */
 
-.team {
+.page-team {
   background-color: #f4f4fd;
 }
-.team-title {
+.page-team .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -109,11 +107,11 @@ li {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-item {
+.page-team .item {
   background-color: #ffffff;
 }
 
-.team-name {
+.page-team .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -123,7 +121,7 @@ li {
 
 /* section#4 */
 
-.portfolio {
+.page-portfolio .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -132,7 +130,7 @@ li {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio-name {
+.page-portfolio .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,23 +140,15 @@ li {
 
 /* footer */
 
-.footer {
+.page-footer {
   background-color: #2e2f42;
   line-height: 1.17;
 }
-.footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.footer-logo-white {
+
+.page-footer .white {
   color: #f4f4fd;
 }
-.footer-text {
+.page-footer .text {
   font-weight: 400;
   color: #f4f4fd;
   line-height: 1.5;
